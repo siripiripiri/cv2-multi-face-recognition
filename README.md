@@ -1,7 +1,7 @@
 
-# Multi-face Recognition using CV2 and Face_Recognition
+# Multi-face Recognition using OpenCV (CV2) and Face_Recognition Library in Python.
 
-Detect and Recognize Multiple Faces in Real Time.
+Detect and Recognize Multiple Faces in a Real Time Video Feed.
 
 
 ## Problem Definition
@@ -38,6 +38,26 @@ Installing on Mac or Linux
 ### Face-Recognition Library's Installation can be found here
 [face_recognition](https://github.com/ageitgey/face_recognition) by ageitgey.
 
+-------------------------------------
+## Run the File
+
+Clone the Repository
+`git clone https://github.com/siripiripiri/cv2-multi-face-recognition.git`
+
+Go to the cloned directory
+`cd cv2-multi-face-recognition`
+
+Install dependencies
+`pip install numpy`
+`pip install opencv-python`
+`pip install face_recognition` 
+
+### To compile and Run the python file, run:
+
+`python face.py` OR
+`python3 face.py`
+
+
 ## Results Analysis
 
 - The face recognition system implemented in this code is able to accurately identify and label the known individuals in real-time. The use of the Face Recognition library provides a robust and efficient face recognition algorithm, which can handle variations in lighting, angle, and occlusion to a certain extent.
@@ -58,3 +78,5 @@ Installing on Mac or Linux
 - The use of face detection, face encoding, and face comparison algorithms provides a robust and efficient face recognition solution.
 - The system has various potential use cases, including security, human-computer interaction, attendance tracking, and customer engagement.
 - The accuracy and performance of the system can be further improved by expanding the training dataset, fine-tuning the algorithms, and optimizing the code for better computational efficiency.
+
+
