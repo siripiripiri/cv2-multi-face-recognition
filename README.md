@@ -24,10 +24,11 @@ The problem addressed in this code is to develop a real-time face recognition sy
 
 ## Installation
 ### Requirements
-Python 3.3+ or Python 2.7
-macOS or Linux (Windows not officially supported, but might work)
-Installation Options:
-Installing on Mac or Linux
+Python 3.3+ or Python 2.7 <br>
+macOS or Linux (Windows not officially supported, but might work) <br>
+<br>
+Installation Options: <br>
+Installing on Mac or Linux <br>
 
 ## Dependencies
 
@@ -35,7 +36,7 @@ Installing on Mac or Linux
 - Numpy
 - face_recognition
 
-### Face-Recognition Library's Installation can be found here
+### Face-Recognition Library's Installation can be found here <br>
 [face_recognition](https://github.com/ageitgey/face_recognition) by ageitgey.
 
 -------------------------------------
@@ -48,13 +49,13 @@ Go to the cloned directory <br>
 `cd cv2-multi-face-recognition`
 
 Install dependencies <br>
-`pip install numpy`
-`pip install opencv-python`
-`pip install face_recognition` 
+`pip install numpy` <br>
+`pip install opencv-python` <br>
+`pip install face_recognition`  <br>
 
 ### To compile and Run the python file, run: <br>
 
-`python face.py` OR
+`python face.py` OR <br>
 `python3 face.py`
 
 
