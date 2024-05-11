@@ -41,18 +41,18 @@ Installing on Mac or Linux
 -------------------------------------
 ## Run the File
 
-Clone the Repository
+Clone the Repository \n
 `git clone https://github.com/siripiripiri/cv2-multi-face-recognition.git`
 
-Go to the cloned directory
+Go to the cloned directory \n
 `cd cv2-multi-face-recognition`
 
-Install dependencies
+Install dependencies \n
 `pip install numpy`
 `pip install opencv-python`
 `pip install face_recognition` 
 
-### To compile and Run the python file, run:
+### To compile and Run the python file, run: \n
 
 `python face.py` OR
 `python3 face.py`
