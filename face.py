@@ -10,7 +10,7 @@ alan = cv2.imread("alan.jpg")
 hrishikesh = cv2.imread("hrishikesh.jpg")
 sudhir_sir = cv2.imread("sudhir_sir.jpg")
 tanmay = cv2.imread("tanmay.jpg")
-petu = cv2.imread("sanjal.jpg")
+sanjal = cv2.imread("sanjal.jpg")
 
 srijan_encoding = face_recognition.face_encodings(srijan)
 if srijan_encoding:
@@ -42,11 +42,11 @@ if tanmay_encoding:
     known_face_encodings.append(tanmay_encoding)
     known_face_names.append("Tanmay")
 
-petu_encoding = face_recognition.face_encodings(petu)
-if petu_encoding:
+sanjal_encoding = face_recognition.face_encodings(sanjal)
+if sanjal_encoding:
     petu_encoding = petu_encoding[0]
-    known_face_encodings.append(petu_encoding)
-    known_face_names.append("Petu")
+    known_face_encodings.append(sanjal_encoding)
+    known_face_names.append("Sanjal")
 
 known_face_encodings = np.array(known_face_encodings)
 
